@@ -1,0 +1,108 @@
+* {
+    font-family: 'Roboto';
+}
+
+body{
+    margin: 0px;
+    background-image: url(../images/Login/backgroundImage.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#logoImg {
+    width: 300px;
+}
+
+#userField {
+    width: 95%;
+    height: 34px;
+    width: 409px;
+    background-color: #d8d9e4;
+    color: #98979c;
+    border: none;
+    padding-left: 8px;
+}
+
+#passwordField {
+    width: 95%;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    height: 34px;
+    width: 410px;
+    background-color: #d8d9e4;
+    color: #98979c;
+    border: none;
+    padding-left: 8px;
+}
+
+#btLogin {
+    height: 30px;
+    width: 120px;
+    margin-top: 10px;
+    border: 0px;
+    background-color: #337ab7;
+    align-items: center;
+    margin-left: 36%;
+    color: #2f3444;
+    font-family: 'Lato';
+}
+
+#rmbPassowrd {
+    margin-top: 6px;
+}
+
+#ainscrevase {
+    text-decoration: none;
+    color: white;
+    margin-left: 250px;
+    font-weight: lighter;
+}
+
+#lblRmbPassword {
+    color: white;
+    margin-top: 1px;
+    font-weight: lighter;
+}
+
+#chkRmbPassword {
+    background-color: green;
+}
+
+.logo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.logo a {
+    font-size: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBox {
+    width: 460px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.loginBox img{
+    height: 36px;
+    vertical-align: middle;
+    margin-right: -4px;
+    margin-top: -2px;
+}

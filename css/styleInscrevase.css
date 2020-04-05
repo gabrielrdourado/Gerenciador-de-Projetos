@@ -1,0 +1,25 @@
+* {
+    font-family: 'Roboto';
+    color:white;
+}
+
+body{
+    margin: 0px;
+    background-image: url(../images/Login/backgroundImage.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#navbar {
+    background-color: #2f3444;
+}
+
+.navbar {
+    background-color: #2f3444;
+}
+
+#navbar li a {
+    color: white;
+}

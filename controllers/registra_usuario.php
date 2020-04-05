@@ -58,7 +58,7 @@
 			$retorno_get.='erro_nome=1&';
 		}
 
-		header('Location: inscrevase.php?'.$retorno_get);
+		header('Location: ../inscrevase.php?'.$retorno_get);
 		die();
 	}
 	//-----------------------------------FIM VERIFICAÇÃO-----------------------------------//
@@ -68,7 +68,7 @@
 	$sql = "insert into usuarios(matricula, nome, senha) values ('$matricula', '$nome', '$senha')";
 
 	if(mysqli_query($linkDB, $sql)){
-		header('Location: index.php?sucesso_cadastro=1');
+		header('Location: ../index.php?sucesso_cadastro=1');
 	} else {
 		echo 'Erro ao registrar o usuário!';
 	}

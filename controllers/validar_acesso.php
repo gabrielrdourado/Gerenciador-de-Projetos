@@ -27,14 +27,14 @@
 		$dadosUsuario = mysqli_fetch_array($resourceLogin, MYSQLI_ASSOC);
 
 		if (is_null($dadosUsuario['matricula'])){
-			header('Location: index.php?error=1');
+			header('Location: ../index.php?error=1');
 		} else {
 			
 			$_SESSION['id_usuario'] = $dadosUsuario['id'];
 			$_SESSION['matricula'] = $dadosUsuario['matricula'];
 			$_SESSION['nome'] = $dadosUsuario['nome'];
 
-			header('Location: dashboardAluno.php');
+			header('Location: ../dashboardAluno.php');
 
 		}
 

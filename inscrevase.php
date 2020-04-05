@@ -15,10 +15,6 @@
 		
 		<link rel="stylesheet" type="text/css" href="css/styleInscrevase.css">
 
-		<!-- FavIcon -->
-		<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
-		
 		<!-- jquery - link cdn -->
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
@@ -57,7 +53,7 @@
 	    	<div class="col-md-4">
 	    		<h3>Inscreva-se já.</h3>
 	    		<br />
-				<form method="post" action="registra_usuario.php" id="formCadastrarse">
+				<form method="post" action="controllers/registra_usuario.php" id="formCadastrarse">
 					<div class="form-group">
 						<input type="text" class="form-control" id="matricula" name="matricula" placeholder="Matrícula" required="requiored">
 						<?php 

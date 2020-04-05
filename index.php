@@ -35,7 +35,7 @@
         </div>
 
         <div class="loginBox">
-            <form id="formLogin" action="validar_acesso.php" method="post" style="display:inline">
+            <form id="formLogin" action="controllers/validar_acesso.php" method="post" style="display:inline">
                 
                 <img src="images/Login/userImage.jpg"/>
                 <input id="userField" type="text" name="matricula" placeholder="Sua matrícula...">

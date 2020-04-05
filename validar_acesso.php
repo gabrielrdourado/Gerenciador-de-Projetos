@@ -1,7 +1,7 @@
 <?php
 	//iniciando sessão
 	session_start();
-	asdas teste
+
 	//importando o dbclass
 	require_once('db.class.php');
 

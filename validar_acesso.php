@@ -1,10 +1,10 @@
 <?php
 	//iniciando sessão
 	session_start();
-	
+	asdas teste
 	//importando o dbclass
 	require_once('db.class.php');
-dsadsad
+
 	//resgatando as informações do form q foi passado
 	$matricula = $_POST['matricula'];
 	$senha = md5($_POST['senha']);

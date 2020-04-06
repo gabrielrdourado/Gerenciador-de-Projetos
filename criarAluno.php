@@ -25,7 +25,7 @@
             </div>
 
             <div class="menuIcons">
-                <a href="dashboardProfessor.php"><img src="images/Dashboard/dashboardIcone.png"/>Consultar</a>
+                <a href="dashboard.php"><img src="images/Dashboard/dashboardIcone.png"/>Consultar</a>
                 <a href="criarAluno.php"><img src="images/Dashboard/matriculasIcone.png"/>Criar Aluno</a>
                 <a href="criarTrabalho.php"><img src="images/Dashboard/turmasIcone.png"/>Criar Trabalho</a>
               </div>
@@ -41,7 +41,7 @@
                 
                 <p id="userAdm">Professor</p>
             </div>
-            <img id="userArrow" src="images/Dashboard/setaIcone.png"/>
+            <a href="/controllers/logoff.php" style="margin-top: 10px; margin-left: 20px; text-decoration: none; color: black; font-family: Roboto;">Sair</a>
         </header>
 
         <h2>Cadastro de Alunos <small id="txtSmall"> </b>Cadastre aqui os alunos de suas turmas<b> </small> </h2> 

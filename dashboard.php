@@ -24,9 +24,9 @@
             </div>
 
             <div class="menuIcons">
-                <a href="#"><img src="images/Dashboard/dashboardIcone.png"/>Dashboard</a>
-                <a href="#"><img src="images/Dashboard/matriculasIcone.png"/>Projetos</a>
-                <a href="#"><img src="images/Dashboard/turmasIcone.png"/>Adicionar Projeto</a>
+                <a href="dashboard.php"><img src="images/Dashboard/dashboardIcone.png"/>Consultar</a>
+                <a href="criarAluno.php"><img src="images/Dashboard/matriculasIcone.png"/>Criar Aluno</a>
+                <a href="criarTrabalho.php"><img src="images/Dashboard/turmasIcone.png"/>Criar Trabalho</a>
               </div>
         </nav>
     </div>

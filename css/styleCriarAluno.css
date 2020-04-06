@@ -11,14 +11,13 @@ h2 {
     font-size: 15px;
 }
 
-#nomeTrabalho {
+#nomeAluno {
     margin-bottom: 10px;
     width: 300px;
 }
 
-#descricaoTrabalho {
-    height: 40px;
-    width: 400px;
+#matriculaAluno {
+    width: 200px;
     margin-top: 10px;
 }
 
@@ -29,7 +28,3 @@ h2 {
     margin: 0 auto;
 }
 
-#arquivos {
-    margin-top: 10px;
-    margin-left:50px;
-}

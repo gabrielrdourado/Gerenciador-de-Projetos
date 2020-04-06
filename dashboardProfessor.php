@@ -37,7 +37,7 @@
             <img id="userImg" src="images/Dashboard/usuarioIcone.png"/>
             <div>
                 <p id="user"><?php echo $_SESSION['nome']; ?></p>
-                <br/>
+                
                 <p id="userAdm">Professor</p>
             </div>
             <img id="userArrow" src="images/Dashboard/setaIcone.png"/>

@@ -16,7 +16,7 @@
 	$linkDB = $objDB->conectaMysql();
 
 	//variavel com a linha em SQL de verificação de usuário registrado no BD
-	$sql = "SELECT id, matricula, nome FROM usuarios WHERE matricula='$matricula' AND senha='$senha'";
+	$sql = "SELECT id, matricula, nome, professor FROM usuarios WHERE matricula='$matricula' AND senha='$senha'";
 
 	//resgatando informações que o select retorna
 	$resourceLogin = mysqli_query($linkDB, $sql);
@@ -29,12 +29,17 @@
 		if (is_null($dadosUsuario['matricula'])){
 			header('Location: ../index.php?error=1');
 		} else {
-			
+
 			$_SESSION['id_usuario'] = $dadosUsuario['id'];
 			$_SESSION['matricula'] = $dadosUsuario['matricula'];
 			$_SESSION['nome'] = $dadosUsuario['nome'];
 
-			header('Location: ../dashboardAluno.php');
+			if ($dadosUsuario['professor'] == 0) {
+				header('Location: ../dashboardAluno.php');
+			}
+			if ($dadosUsuario['professor'] == 1) {
+				header('Location: ../dashboardProfessor.php');
+			}
 
 		}
 

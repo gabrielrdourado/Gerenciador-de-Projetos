@@ -21,10 +21,28 @@ h2 {
     margin-top: 10px;
 }
 
+#nomeAluno {
+    margin-top: 10px;
+}
+
 .cadastro { 
     width: max-content;
     margin-left: 80px;
     text-align: center;
     margin: 0 auto;
+    padding: 20px;
+    background-color:white;
+    border-radius: solid 5px grey ;
+}
+
+#btCadastrarAluno {
+    height: 30px;
+    width: 120px;
+    margin-top: 10px;
+    border: 0px;
+    background-color: #337ab7;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Lato';
 }
 

@@ -21,7 +21,7 @@
     <div class="containerMenu">
         <nav class="vertical-menu">
             <div class="menuLogo">
-                <a href="#">Gerenciador de projetos</a>
+                <a href="#">Gerenciador de Projetos</a>
             </div>
 
             <div class="menuIcons">
@@ -50,6 +50,7 @@
             <form id="formLogin" action="controllers/validar_acesso.php" method="post" style="display:inline">
                     
                 <label for="trabalho">Nome do Trabalho:</label>
+                <br>
                 <input id="nomeTrabalho" type="text" name="nomeTrabalho" placeholder="Nome do Trabalho">
 
                 <br>
@@ -60,7 +61,17 @@
 
                 <br>
 
-                <input id="arquivos" type="file" name="arquivos">
+                <label for="videos">Se quiser, suba um vídeo para instruir sua turma.</label>
+                <br>
+                <input id="videos" type="file" name="arquivos">
+
+                <br>
+
+                <br>
+
+                <label for="imagens">Ou se preferir, suba uma imagem.</label>
+                <br>
+                <input id="imagens" type="file" name="arquivos">
 
                 <br>
                 <br>

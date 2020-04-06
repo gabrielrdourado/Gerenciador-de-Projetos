@@ -20,7 +20,7 @@
     <div class="containerMenu">
         <nav class="vertical-menu">
             <div class="menuLogo">
-                <a href="#">Gerenciador de projetos</a>
+                <a href="#">Gerenciador de Projetos</a>
             </div>
 
             <div class="menuIcons">

@@ -12,6 +12,7 @@ h2 {
 }
 
 #nomeTrabalho {
+    margin-top: 10px;
     margin-bottom: 10px;
     width: 300px;
 }
@@ -20,6 +21,7 @@ h2 {
     height: 40px;
     width: 400px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .cadastro { 
@@ -27,9 +29,28 @@ h2 {
     margin-left: 80px;
     text-align: center;
     margin: 0 auto;
+    padding: 20px;
+    background-color:white;
+    border-radius: solid 5px grey;
 }
 
-#arquivos {
+#imagens {
+    margin: 10px 0;
+    margin-left: 50px;
+}
+
+#videos {
+    margin: 10px 0;
+    margin-left: 50px;
+}
+
+#btCadastrarTrabalho {
+    height: 30px;
+    width: 120px;
     margin-top: 10px;
-    margin-left:50px;
+    border: 0px;
+    background-color: #337ab7;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Lato';
 }

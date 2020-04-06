@@ -21,7 +21,7 @@
     <div class="containerMenu">
         <nav class="vertical-menu">
             <div class="menuLogo">
-                <a href="#">Gerenciador de projetos</a>
+                <a href="#">Gerenciador de Projetos</a>
             </div>
 
             <div class="menuIcons">
@@ -50,11 +50,13 @@
                 <form id="formLogin" action="controllers/validar_acesso.php" method="post" style="display:inline">
                         
                     <label for="trabalho">Nome do Aluno:</label>
+                    <br>
                     <input id="nomeAluno" type="text" name="nomeAluno" placeholder="Nome do Aluno">
     
                     <br>
     
                     <label for="matricula">Matricula:</label>
+                    <br>
                     <input id="matriculaAluno" type="text" name="matriculaAluno" placeholder="Matricula do Aluno">
     
                     <br>

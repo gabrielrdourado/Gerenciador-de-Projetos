@@ -40,7 +40,7 @@
                 
                 <p id="userAdm">Professor</p>
             </div>
-            <img id="userArrow" src="images/Dashboard/setaIcone.png"/>
+            <a href="/controllers/logoff.php" style="margin-top: 10px; margin-left: 20px; text-decoration: none; color: black; font-family: Roboto;">Sair</a>
         </header>
 
     </div>

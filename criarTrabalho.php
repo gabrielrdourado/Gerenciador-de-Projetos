@@ -47,7 +47,7 @@
         <h2>Cadastro de Trabalhos <small id="txtSmall"> </b>Cadastre aqui os trabalhos de suas turmas<b> </small> </h2> 
 
         <div class="cadastro">
-            <form id="formLogin" action="controllers/validar_acesso.php" method="post" style="display:inline">
+            <form id="formLogin" action="controllers/cadastrar_trabalho.php" method="post" enctype="multipart/form-data" style="display:inline">
                     
                 <label for="trabalho">Nome do Trabalho:</label>
                 <br>
@@ -63,7 +63,7 @@
 
                 <label for="videos">Se quiser, suba um vídeo para instruir sua turma.</label>
                 <br>
-                <input id="videos" type="file" name="arquivos">
+                <input id="arquivo1" type="file" name="arquivo1">
 
                 <br>
 
@@ -71,7 +71,7 @@
 
                 <label for="imagens">Ou se preferir, suba uma imagem.</label>
                 <br>
-                <input id="imagens" type="file" name="arquivos">
+                <input id="arquivo2" type="file" name="arquivo2">
 
                 <br>
                 <br>

@@ -71,6 +71,7 @@ header {
     display: block; 
     padding: 8px; 
     text-decoration: none; 
+    text-align: center;
     
   }
   
@@ -84,6 +85,7 @@ header {
     font-size: 25px;
     color: white;
     border-bottom: solid white 2px;
+    text-align: center;
 }
 
 

@@ -28,6 +28,9 @@ header {
     display: flex;
     flex-direction: row;
     border-bottom: solid #337ab7 4px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
 }
 
 #descricao {
@@ -78,7 +81,7 @@ header {
   
 .vertical-menu a:hover {
     background-color: #3d4351;
-    border-right: #337ab7 solid 4px;
+    border-left: #337ab7 solid 4px;
   }
 
 .menuLogo a {

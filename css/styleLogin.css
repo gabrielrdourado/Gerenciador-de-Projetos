@@ -45,7 +45,7 @@ body{
     background-color: #337ab7;
     align-items: center;
     margin-left: 36%;
-    color: #2f3444;
+    color: #FFFFFF;
     font-family: 'Lato';
 }
 
@@ -53,7 +53,7 @@ body{
     margin-top: 6px;
 }
 
-#ainscrevase {
+#inscrevase {
     text-decoration: none;
     color: white;
     margin-left: 250px;

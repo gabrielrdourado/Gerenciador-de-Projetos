@@ -19,6 +19,7 @@
 
     <!-- bootstrap - link cdn -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styleLogin.css">
 </head>
 <body>
 
@@ -51,7 +52,7 @@
                         <input id="chkRmbPassword" type="checkbox" name="chkRememberPassword">
                         <label id="lblRmbPassword">Lembrar senha</label>
     
-                        <a  id="aInscrevase" href="inscrevase.php">Cadastra-se</a>
+                        <a id="inscrevase" href="inscrevase.php">Cadastra-se</a>
     
                     </div>
                 <br>

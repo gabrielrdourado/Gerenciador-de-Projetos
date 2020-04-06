@@ -38,7 +38,7 @@
             <div>
                 <p id="user"><?php echo $_SESSION['nome']; ?></p>
                 
-                <p id="userAdm">Aluno</p>
+                <p id="userAdm">Professor</p>
             </div>
             <img id="userArrow" src="images/Dashboard/setaIcone.png"/>
         </header>

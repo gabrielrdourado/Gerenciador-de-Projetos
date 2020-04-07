@@ -43,6 +43,14 @@
             <a href="/controllers/logoff.php" style="margin-top: 10px; margin-left: 20px; text-decoration: none; color: black; font-family: Roboto;">Sair</a>
         </header>
 
+        <h2>Consulta de Trabalhos <small id="txtSmall"> </b>Consulte aqui os trabalhos criados por você.<b> </small> </h2> 
+
+        <div class="cadastro">
+            <form id="formLogin" action="controllers/cadastrar_trabalho.php" method="post" enctype="multipart/form-data" style="display:inline">
+                    
+
+        </div>
+
     </div>
 </body>
 </html>

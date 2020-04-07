@@ -51,7 +51,7 @@
                     
                 <label for="trabalho">Nome do Trabalho:</label>
                 <br>
-                <input id="nomeTrabalho" type="text" name="nomeTrabalho" placeholder="Nome do Trabalho">
+                <input id="nomeTrabalho" type="text" name="nomeTrabalho" placeholder="Nome do Trabalho" required>
 
                 <br>
 

@@ -1,3 +1,11 @@
+* {
+    font-style: 'Roboto';
+}
+
+h2 {
+    margin: 20px auto;
+}
+
 body {
     font-family: Roboto;
     font-weight: lighter;
@@ -140,4 +148,56 @@ header {
 
 #grafico {
     padding: 1.2%;
+}
+
+#txtSmall {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#nomeTrabalho {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#descricaoTrabalho {
+    height: 40px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cadastro { 
+    width: max-content;
+    margin-left: 80px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:white;
+    border-radius: solid 5px grey;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#arquivo1 {
+    margin: 10px 0;
+    margin-left: 50px;
+}
+
+#arquivo2 {
+    margin: 10px 0;
+    margin-left: 50px;
+}
+
+#btCadastrarTrabalho {
+    height: 30px;
+    width: 120px;
+    margin-top: 10px;
+    border: 0px;
+    background-color: #337ab7;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Lato';
 }

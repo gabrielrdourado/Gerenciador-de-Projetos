@@ -9,7 +9,7 @@
 		private $usuario = 'root';
 
 		//senha
-		private $senha = 'root';
+		private $senha = '';
 
 		//banco de dados
 		private $database = 'multmidiaprojeto';

@@ -14,6 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styleDashboard.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <title>Dashboard</title>
 </head>
 <body>
@@ -46,11 +47,25 @@
         <h2>Consulta de Trabalhos <small id="txtSmall"> </b>Consulte aqui os trabalhos criados por você.<b> </small> </h2> 
 
         <div class="cadastro">
-            <form id="formLogin" action="controllers/cadastrar_trabalho.php" method="post" enctype="multipart/form-data" style="display:inline">
-                    
 
         </div>
 
     </div>
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+        function atualizaTweets(){
+					$.ajax({
+						url: 'get_trabalhos.php',
+						success: function(data){
+							$('#cadastro').html(data);
+						}
+					});
+				}
+
+				atualizaTweets();
+    });
+    </script>
+
 </body>
 </html>

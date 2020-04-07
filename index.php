@@ -20,6 +20,12 @@
     <!-- bootstrap - link cdn -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styleLogin.css">
+
+    <script type="text/javascript">
+        var bleep = new Audio();
+        bleep.src = "sounds/bleep.mp3";
+    </script>
+
 </head>
 <body>
 
@@ -57,7 +63,7 @@
                     </div>
                 <br>
     
-                <button id="btLogin" type="buttom">Logar</button>
+                <button id="btLogin" onmousedown="bleep.play()" type="buttom">Logar</button>
 
                 <?php
                     if($error == 1){

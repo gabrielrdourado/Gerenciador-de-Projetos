@@ -16,6 +16,12 @@
     <link rel="stylesheet" href="css/styleDashboard.css">
     <link rel="stylesheet" href="css/stylecriarTrabalho.css">
     <title>Dashboard</title>
+
+    <script type="text/javascript">
+        var bleep = new Audio();
+        bleep.src = "sounds/bleep.mp3";
+    </script>
+
 </head>
 <body>
     <div class="containerMenu">
@@ -76,7 +82,7 @@
                 <br>
                 <br>
 
-                <button id="btCadastrarTrabalho" type="buttom">Cadastrar Trabalho</button>
+                <button id="btCadastrarTrabalho" onmousedown="bleep.play()" type="buttom">Cadastrar Trabalho</button>
 
             </form>
         </div>

@@ -16,6 +16,12 @@
     <link rel="stylesheet" href="css/styleDashboard.css">
     <link rel="stylesheet" href="css/styleCriarAluno.css">
     <title>Dashboard</title>
+
+    <script type="text/javascript">
+        var bleep = new Audio();
+        bleep.src = "sounds/bleep.mp3";
+    </script>
+
 </head>
 <body>
     <div class="containerMenu">
@@ -47,7 +53,7 @@
         <h2>Cadastro de Alunos <small id="txtSmall"> </b>Cadastre aqui os alunos de suas turmas<b> </small> </h2> 
 
             <div class="cadastro">
-                <form id="formLogin" action="controllers/validar_acesso.php" method="post" style="display:inline">
+                <form id="formLogin" action="controllers/cadastrar_aluno.php" method="post" style="display:inline">
                         
                     <label for="trabalho">Nome do Aluno:</label>
                     <br>
@@ -62,7 +68,7 @@
                     <br>
                     <br>
     
-                    <button id="btCadastrarAluno" type="buttom">Cadastrar Aluno</button>
+                    <button id="btCadastrarAluno" onmousedown="bleep.play()" type="buttom">Cadastrar Aluno</button>
     
                 </form>
             </div>

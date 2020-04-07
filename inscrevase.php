@@ -21,6 +21,12 @@
 		<!-- bootstrap - link cdn -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	
+
+	    <script type="text/javascript">
+	        var bleep = new Audio();
+	        bleep.src = "sounds/bleep.mp3";
+	    </script>
+
 	</head>
 
 	<body>
@@ -76,7 +82,7 @@
 						<input type="password" autocomplete="new-password" class="form-control" id="senha" name="senha" placeholder="Senha" required="requiored">
 					</div>
 					
-					<button type="submit" class="btn btn-primary form-control">Inscreva-se</button>
+					<button type="submit" onmousedown="bleep.play()" class="btn btn-primary form-control">Inscreva-se</button>
 				</form>
 			</div>
 			<div class="col-md-4"></div>

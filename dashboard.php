@@ -54,7 +54,7 @@
     <script type="text/javascript">
 
     $(document).ready(function(){
-        function atualizaTweets(){
+        function atualizaTrabalhos(){
 					$.ajax({
 						url: 'get_trabalhos.php',
 						success: function(data){
@@ -63,7 +63,7 @@
 					});
 				}
 
-				atualizaTweets();
+				atualizaTrabalhos();
     });
     </script>
 

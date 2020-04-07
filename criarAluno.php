@@ -51,13 +51,13 @@
                         
                     <label for="trabalho">Nome do Aluno:</label>
                     <br>
-                    <input id="nomeAluno" type="text" name="nomeAluno" placeholder="Nome do Aluno">
+                    <input id="nomeAluno" type="text" name="nomeAluno" placeholder="Nome do Aluno" required>
     
                     <br>
     
                     <label for="matricula">Matricula:</label>
                     <br>
-                    <input id="matriculaAluno" type="text" name="matriculaAluno" placeholder="Matricula do Aluno">
+                    <input id="matriculaAluno" type="text" name="matriculaAluno" placeholder="Matricula do Aluno" required>
     
                     <br>
                     <br>

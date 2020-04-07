@@ -51,13 +51,13 @@
                     
                 <label for="trabalho">Nome do Trabalho:</label>
                 <br>
-                <input id="nomeTrabalho" type="text" name="nomeTrabalho" placeholder="Nome do Trabalho">
+                <input id="nomeTrabalho" type="text" name="nomeTrabalho" placeholder="Nome do Trabalho" required>
 
                 <br>
 
                 <label for="matricula">Descrição do Trabalho:</label>
                 <br>
-                <input id="descricaoTrabalho" type="text" name="descricaoTrabalho" placeholder="Descrição do Trabalho">
+                <input id="descricaoTrabalho" type="text" name="descricaoTrabalho" placeholder="Descrição do Trabalho" required>
 
                 <br>
 

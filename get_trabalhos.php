@@ -23,9 +23,9 @@
 	if($resultado_id){
 		
 		while($registro = mysqli_fetch_array($resultado_id, MYSQLI_ASSOC)){
-			echo '<a href="#" class="list-group-item">';
-				echo '<h4 class="list-item-group-heading">'.$registro['nome'].'</h4>';
-				echo '<p class="list-group-item-text">'.$registro['descricao'].'</p>';
+			echo '<a href="#" class="list-group-item" style="text-decoration:none; color:black;">';
+				echo '<h4 class="list-item-group-heading" style="font-size:30px; text-transform:uppercase;">'.$registro['nome'].'</h4>';
+				echo '<p class="list-group-item-text style="font-size:12px; font-weight:normal; text-transform:capitalize;">'.$registro['descricao'].'</p>';
 				echo '<img src="arquivosUpados/';
 				if ($registro['nome'] == $registro['nome_trabalho']) {
 					echo ''.$registro['nome_arquivo'].'';

@@ -80,7 +80,7 @@
 			if(move_uploaded_file($_FILES['arquivo1']['tmp_name'], $_UP['pasta']. $nome_final)){
 				//Upload efetuado com sucesso, exibe a mensagem
 				$query = mysqli_query($linkDB, "INSERT INTO arquivos (
-				nome, nome_trabalho) VALUES('$nome_final', '$nomeTrabalho')");
+				nome_arquivo, nome_trabalho) VALUES('$nome_final', '$nomeTrabalho')");
 			}else{
 				//Upload não efetuado com sucesso, exibe a mensagem
 				echo "
@@ -137,7 +137,7 @@
 			if(move_uploaded_file($_FILES['arquivo2']['tmp_name'], $_UP['pasta']. $nome_final)){
 				//Upload efetuado com sucesso, exibe a mensagem
 				$query = mysqli_query($linkDB, "INSERT INTO arquivos (
-				nome, nome_trabalho) VALUES('$nome_final', '$nomeTrabalho')");
+				nome_arquivo, nome_trabalho) VALUES('$nome_final', '$nomeTrabalho')");
 			}else{
 				//Upload não efetuado com sucesso, exibe a mensagem
 				echo "

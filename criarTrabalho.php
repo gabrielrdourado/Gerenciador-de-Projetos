@@ -67,7 +67,7 @@
 
                 <br>
 
-                <label for="videos">Se quiser, suba um vídeo para instruir sua turma.</label>
+                <label for="videos">Suba o arquivo 1.</label>
                 <br>
                 <input id="arquivo1" type="file" name="arquivo1">
 
@@ -75,7 +75,7 @@
 
                 <br>
 
-                <label for="imagens">Ou se preferir, suba uma imagem.</label>
+                <label for="imagens">Suba o arquivo 2.</label>
                 <br>
                 <input id="arquivo2" type="file" name="arquivo2">
 

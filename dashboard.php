@@ -13,7 +13,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/styleDashboard.css">
+    <!-- jquery - link cdn -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <title>Dashboard</title>
 </head>
@@ -46,26 +50,25 @@
 
         <h2>Consulta de Trabalhos <small id="txtSmall"> </b>Consulte aqui os trabalhos criados por você.<b> </small> </h2> 
 
-        <div class="cadastro">
-
-        </div>
+        <div class="cadastro"></div>
 
     </div>
-    <script type="text/javascript">
-
-    $(document).ready(function(){
-        function atualizaTweets(){
-					$.ajax({
-						url: 'get_trabalhos.php',
-						success: function(data){
-							$('#cadastro').html(data);
-						}
-					});
-				}
-
-				atualizaTweets();
-    });
-    </script>
 
 </body>
+<footer>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            function atualizaTrabalhos(){
+                $.ajax({
+                    url: 'get_trabalhos.php',
+                    success: function(data){
+                        $('.cadastro').html(data);
+                    }
+                });
+            }
+
+            atualizaTrabalhos();
+        });
+    </script>
+</footer>
 </html>
